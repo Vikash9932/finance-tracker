@@ -4,9 +4,9 @@
 
 ## Deployed on Firebase at:
 
-### meropiso.web.app
+### https://meropiso.web.app
 
-### meropiso.firebaseapp.com
+### https://meropiso.firebaseapp.com
 
 ## Getting Started with Create React App
 
