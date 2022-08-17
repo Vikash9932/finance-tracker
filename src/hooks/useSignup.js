@@ -20,7 +20,6 @@ export const useSignup = () => {
         email,
         password
       );
-      // console.log(res.user);
       if (!res) {
         throw new Error('Could not complete signup');
       }
@@ -37,7 +36,6 @@ export const useSignup = () => {
         setError(null);
       }
     } catch (error) {
-      console.log(error.message);
       if (!isCancelled) {
         setIsPending(false);
         setError(error.message);

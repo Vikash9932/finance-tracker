@@ -20,7 +20,6 @@ export const useLogin = () => {
         email,
         password
       );
-      //   console.log(res.user);
       if (!res) {
         throw new Error('Could not complete login');
       }
@@ -33,7 +32,6 @@ export const useLogin = () => {
         setError(null);
       }
     } catch (error) {
-      console.log(error.message);
       if (!isCancelled) {
         setIsPending(false);
         setError(error.message);
